@@ -26,3 +26,9 @@ h1 {
   top: 50%;
   transform: translate(0, -50%);
 }
+
+@media (max-width: 600px) {
+  img {
+    rotate: 90deg;
+  }
+}
