@@ -8,7 +8,7 @@ function cuantoFalta() {
   const fechaFinal = new Date(termina)
   const fechaActual = new Date()
 
-  const segundosTotales = (fechaFinal - fechaActual) / 1000
+  const segundosTotales = (fechaActual - fechaFinal) / 1000
   const dias = Math.floor(segundosTotales / 3600 / 24)
   const horas = Math.floor(segundosTotales / 3600) % 24
   const minutos = Math.floor(segundosTotales / 60) % 60
